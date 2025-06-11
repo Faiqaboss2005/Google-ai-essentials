@@ -1,5 +1,5 @@
 def chatbot():
-    print("🤖 Hello! I'm a simple AI chatbot. Type 'bye' to exit.")
+    print(" Hello! I'm a simple AI chatbot. Type 'bye' to exit.")
 
     while True:
         user_input = input("You: ").lower()
@@ -11,10 +11,8 @@ def chatbot():
         elif "ai" in user_input:
             print("Bot: AI stands for Artificial Intelligence. It's about making machines think like humans.")
         elif "bye" in user_input:
-            print("Bot: Goodbye! 👋")
+            print("Bot: Goodbye!")
             break
         else:
             print("Bot: I'm not sure how to respond to that.")
-
-# Run the chatbot
-chatbot()
+         chatbot()
